@@ -1,0 +1,220 @@
+{
+	"info": {
+		"_postman_id": "040428fd-6626-400d-955b-d68e30323377",
+		"name": "MagicMovers/Items",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22129966"
+	},
+	"item": [
+		{
+			"name": "add items to magic mover",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"itemsId\":\"66244532622935511eae907b\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/magicmover/items/6623fe5b8afbd72e62c5e7b0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"magicmover",
+						"items",
+						"6623fe5b8afbd72e62c5e7b0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add magic mover",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\" funy Stick\",\r\n    \"weight\":200\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/magicitem/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"magicitem",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StartMission",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"itemsId\":\"66244532622935511eae907b\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/magicmover/items/6623fe5b8afbd72e62c5e7b0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"magicmover",
+						"items",
+						"6623fe5b8afbd72e62c5e7b0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EndingMission",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"itemsId\":\"66244532622935511eae907b\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/magicmover/items/6623fe5b8afbd72e62c5e7b0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"magicmover",
+						"items",
+						"6623fe5b8afbd72e62c5e7b0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MostMissionsCompleted",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"itemsId\":\"66244532622935511eae907b\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/magicmover/items/6623fe5b8afbd72e62c5e7b0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"magicmover",
+						"items",
+						"6623fe5b8afbd72e62c5e7b0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add magic item",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\" funy Stick\",\r\n    \"weight\":200\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/magicitem/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"magicitem",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/magicmover/mostMissionsCompleted",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/magicmover/mostMissionsCompleted",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"magicmover",
+						"mostMissionsCompleted"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
